@@ -1,1 +1,1 @@
-# JS-constructor
+# This is application writting on vanilla JS
