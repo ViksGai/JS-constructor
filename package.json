@@ -1,0 +1,25 @@
+{
+  "name": "js-constructor",
+  "version": "1.0.0",
+  "description": "js app",
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 4250 --open",
+    "build": "parcel build ./src/index.html --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViksGai/JS-constructor.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Viktoriia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViksGai/JS-constructor/issues"
+  },
+  "homepage": "https://github.com/ViksGai/JS-constructor#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
