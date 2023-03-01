@@ -1,11 +1,11 @@
-import image from "./assets/image.jpg";
+import image from "./assets/image.svg";
 import { TitleBlock, ColumnsBlock, ImageBlock, TextBlock } from "./classes/blocks";
 
 export const model = [
   new TitleBlock("Let's create a website!", {
     tag: "h2",
     styles: {
-      background: "linear-gradient(to right, #ff0099, #493240)",
+      background: "linear-gradient(to right, #FFDF01, #493240)",
       color: "#fff",
       padding: "1.5rem",
       "text-align": "center",
@@ -28,10 +28,10 @@ export const model = [
   ),
   new ColumnsBlock(
     [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cupiditate?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quae, ea ad optio voluptatum recusandae autem eveniet officiis odit quasi.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cupiditate?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quae, ea ad optio voluptatum recusandae autem eveniet officiis odit quasi.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cupiditate?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quae, ea ad optio voluptatum recusandae autem eveniet officiis odit quasi.",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cupiditate?Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quae, ea ad optio voluptatum recusandae autem eveniet officiis odit quasi.",
+      "1. Create a text and put it in 'value field' on the right sidebar",
+      "2. Create styles for your block",
+      "3. Click button 'Add'",
+      "Example. 'value': Hello, World!, 'styles': color: green; text-align: center ",
     ],
     {
       styles: {
